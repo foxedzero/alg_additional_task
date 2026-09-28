@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include "solution.h"
 
 
 
-int kmeters(int meters){
-    float km_f = (float)meters / 1000;
-    int km_i = (int)km_f;
-    return km_f;
+int task3(int meters){
+    float km = meters / 1000;
+    return km;
 }
 

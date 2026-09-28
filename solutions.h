@@ -1,0 +1,1 @@
+int task2( int n, int k );

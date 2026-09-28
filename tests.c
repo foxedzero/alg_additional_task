@@ -30,10 +30,28 @@ void test2()
     printf("Test 3 task 2 OK\n");
 }
 
+void test3(){
+    assert(task3(500) == 0);
+    printf("Test 1 task 3 OK\n");
+
+    assert(task3(1000) == 1);
+    printf("Test 2 task 3 OK\n");
+
+    assert(task3(1500) == 1);
+    printf("Test 3 task 3 OK\n");
+
+    assert(task3(4851) == 4);
+    printf("Test 4 task 3 OK\n");
+
+    assert(task3(1) == 0);
+    printf("Test 5 task 3 OK\n");
+}
+
 int main(void)
 {
     test1();
     test2();
+    test3();
     return 0;
 }
 
